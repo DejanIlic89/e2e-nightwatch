@@ -1,0 +1,27 @@
+{
+  "name": "e2e-nightwatch",
+  "version": "1.0.0",
+  "description": "Automation testing with Nightwatch.js",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DejanIlic89/e2e-nightwatch.git"
+  },
+  "keywords": [
+    "nightwatch",
+    "mocha",
+    "chai"
+  ],
+  "author": "Dejan Ilic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DejanIlic89/e2e-nightwatch/issues"
+  },
+  "homepage": "https://github.com/DejanIlic89/e2e-nightwatch#readme",
+  "devDependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}
