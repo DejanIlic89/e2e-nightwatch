@@ -2,12 +2,12 @@
 Setup of Nightwatch testing framework &amp; running end-to-end tests
 
 - To run tests, first you need to start Selenium server by webdriver-manager tool.<br/>
-Make sure to install globally webdriver-manager (`npm install -g webdriver-manger`).
+Make sure to install globally webdriver-manager (`npm install -g webdriver-manager`).
 	```
 	webdriver-manager update
 	webdriver-manager start
 	```
 
-- Running test command: `node nightwatch -e chrome`
+- Running test command: <br/>`node nightwatch -e chrome`, <br/>`nightwatch --e <env-name> /test_path/test_dir/*.js`, <br/>`nightwatch --e <env-name> --tags <tag-name>`
 
 - Sessions monitoring: [Session view](http://localhost:4444/wd/hub/static/resource/hub.html)
