@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/DejanIlic89/e2e-nightwatch#readme",
   "devDependencies": {
+    "cucumber": "^4.2.1",
     "nightwatch": "^0.9.21"
   }
 }
