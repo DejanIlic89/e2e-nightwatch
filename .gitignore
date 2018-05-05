@@ -2,5 +2,7 @@
 
 package-lock.json
 node_modules/*
+screenshots/*
+reports/*
 *.DS_Store
 *.idea
