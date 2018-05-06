@@ -6,3 +6,6 @@ screenshots/*
 reports/*
 *.DS_Store
 *.idea
+*.vscode
+selenium-debug.log
+bin/*

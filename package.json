@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/DejanIlic89/e2e-nightwatch#readme",
   "devDependencies": {
+    "concurrently": "^3.5.1",
     "cucumber": "^4.2.1",
-    "nightwatch": "^0.9.21"
+    "nightwatch": "^0.9.21",
+    "nightwatch-cucumber": "^9.1.2"
   }
 }
