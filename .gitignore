@@ -8,5 +8,4 @@ reports/*
 *.idea
 *.vscode
 selenium-debug.log
-bin/*
-tests/cucumber/reports/*
+cucumber/reports/*

@@ -4,7 +4,7 @@
   "description": "Automation testing with Nightwatch.js",
   "main": "nightwatch.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node nightwatch --e chrome --tag demo"
   },
   "repository": {
     "type": "git",

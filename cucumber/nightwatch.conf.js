@@ -1,12 +1,12 @@
 // Get Selenium and the drivers
 let seleniumServer = require('selenium-server');
-let chromedriver = require('../../node_modules/chromedriver/lib/chromedriver');
+let chromedriver = require('../node_modules/chromedriver/lib/chromedriver');
 let geckodriver = require('geckodriver');
 
 let config = {
   src_folders: [
     // Folders with tests
-    'tests/cucumber/features'
+    'tests/cucumber'
   ],
   output_folder: 'tests/cucumber/reports', // Where to output the test reports
   selenium: {
@@ -21,7 +21,7 @@ let config = {
   },
   test_workers: {
     // This allows more then one browser to be opened and tested in at once
-    enabled: true,
+    enabled: false,
     workers: 'auto'
   },
   test_settings: {
