@@ -4,7 +4,8 @@
   "description": "Automation testing with Nightwatch.js",
   "main": "nightwatch.js",
   "scripts": {
-    "test": "node nightwatch --e chrome --tag demo"
+    "test": "node nightwatch --e chrome --tag demo",
+    "run": "node nightwatch --e chrome --tag demo --reporter ./html-reporter.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "geckodriver": "^1.11.0",
     "nightwatch": "^0.9.21",
     "nightwatch-cucumber": "^9.1.2",
+    "nightwatch-html-reporter": "^2.0.5",
     "selenium-server": "^3.11.0"
   }
 }
