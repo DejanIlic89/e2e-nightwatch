@@ -1,14 +1,14 @@
 // Get Selenium and the drivers
 let seleniumServer = require('selenium-server');
-let chromedriver = require('../node_modules/chromedriver/lib/chromedriver');
+let chromedriver = require('./node_modules/chromedriver/lib/chromedriver');
 let geckodriver = require('geckodriver');
 
 let config = {
   src_folders: [
     // Folders with tests
-    'tests/cucumber'
+    'cucumber/features'
   ],
-  output_folder: 'tests/cucumber/reports', // Where to output the test reports
+  output_folder: 'cucumber/reports', // Where to output the test reports
   selenium: {
     // Information for selenium, such as the location of the drivers ect.
     start_process: true,
