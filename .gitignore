@@ -10,3 +10,4 @@ reports/*
 selenium-debug.log
 cucumber/reports/*
 debug.log
+logs/*

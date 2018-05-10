@@ -1,5 +1,3 @@
-# feature/google.feature
-
 Feature: Google Search
 
   Scenario: Searching Google

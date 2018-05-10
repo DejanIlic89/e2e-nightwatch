@@ -13,6 +13,7 @@ let config = {
     // Information for selenium, such as the location of the drivers ect.
     start_process: true,
     server_path: seleniumServer.path,
+    log_path: 'logs',
     port: 4444, // Standard selenium port
     cli_args: {
       'webdriver.chrome.driver': chromedriver.path,

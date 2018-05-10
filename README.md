@@ -1,5 +1,9 @@
 # e2e-nightwatch
 ## Setup of Nightwatch testing framework &amp; running end-to-end tests
+## 1. Instalation
+To install Nightwatch.js you need to things :   
+> + A **_[Selenium](https://www.seleniumhq.org/)_** server  
+> + Nightwatch.js test runner
 
 - To install Nightwatch use : <br/>
 	> npm install [-g] nightwatch
@@ -13,7 +17,6 @@ Make sure to install globally webdriver-manager (`npm install -g webdriver-manag
 	```
 	- webdriver-manager update
 	- webdriver-manager start
-	- webdriver-manager clean
 	```
 
 - Running test commands : <br/>`node nightwatch -e chrome`, <br/>`nightwatch --e <env-name> /test_path/test_dir/*.js`, <br/>`nightwatch --e <env-name> --tags <tag-name>`
