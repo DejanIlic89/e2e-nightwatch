@@ -2,12 +2,11 @@
 
 package-lock.json
 node_modules/*
-screenshots/*
-reports/*
+*/screenshots/*
+*/reports/*
 *.DS_Store
 *.idea
 *.vscode
-selenium-debug.log
-cucumber/reports/*
+*/logs/selenium-debug.log
 debug.log
-logs/*
+*/logs

@@ -1,6 +1,6 @@
 // Get Selenium and the drivers
 let seleniumServer = require('selenium-server');
-let chromedriver = require('./node_modules/chromedriver/lib/chromedriver');
+let chromedriver = require('../node_modules/chromedriver/lib/chromedriver');
 let geckodriver = require('geckodriver');
 
 let config = {
@@ -13,7 +13,7 @@ let config = {
     // Information for selenium, such as the location of the drivers ect.
     start_process: true,
     server_path: seleniumServer.path,
-    log_path: 'logs',
+    log_path: 'cucumber/logs',
     port: 4444, // Standard selenium port
     cli_args: {
       'webdriver.chrome.driver': chromedriver.path,

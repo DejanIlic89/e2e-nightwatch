@@ -11,7 +11,7 @@ To install Nightwatch.js you need to things :
 	or you can install it locally : <br/>
 	> npm install [--save-dev] nightwatch
 
-
+## 2. Running tests
 - To run tests, first you need to start Selenium server by webdriver-manager tool.<br/>
 Make sure to install globally webdriver-manager (`npm install -g webdriver-manager`).
 	```
@@ -31,7 +31,7 @@ Make sure to install globally webdriver-manager (`npm install -g webdriver-manag
 	> npm run-script `test`<br/>
 npm run-script `run`
 
-## Configuration
+## 3. Configuration
 The Nightwatch test runner expects a configuration file to be passed, using by default a `nightwatch.json` file from the current directory. A `nightwatch.conf.js` will also be loaded by default if found. But by precedence, `nightwatch.conf.js` will be loaded by default if both the configuration files are found to be present within the current directory.
 
 - Sessions monitoring: [Session view](http://localhost:4444/wd/hub/static/resource/hub.html)

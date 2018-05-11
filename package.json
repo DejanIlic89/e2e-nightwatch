@@ -4,9 +4,10 @@
   "description": "Automation testing with Nightwatch.js",
   "main": "nightwatch.js",
   "scripts": {
-    "test": "node nightwatch --e chrome --tag demo --config nightwatch.json",
-    "run": "node nightwatch --e chrome --tag demo --reporter ./html-reporter.js --config nightwatch.json",
-    "cucumber": "node nightwatch --config nightwatch.conf.CUCUMBER.js"
+    "test": "node nightwatch --e chrome --tag demo --config demo/nightwatch.json",
+    "demo": "node nightwatch --e chrome --tag demo --reporter ./demo/html-reporter.js --config demo/nightwatch.json",
+    "cucumber": "node nightwatch --reporter ./cucumber/html-reporter.js --config cucumber/nightwatch.conf.CUCUMBER.js",
+    "angular": "node nightwatch --e chrome --reporter ./angularjs_app/html-reporter.js --config angularjs_app/nightwatch.conf.ANGULAR.js"
   },
   "repository": {
     "type": "git",
