@@ -34,4 +34,7 @@ npm run-script `run`
 ## 3. Configuration
 The Nightwatch test runner expects a configuration file to be passed, using by default a `nightwatch.json` file from the current directory. A `nightwatch.conf.js` will also be loaded by default if found. But by precedence, `nightwatch.conf.js` will be loaded by default if both the configuration files are found to be present within the current directory.
 
-- Sessions monitoring: [Session view](http://localhost:4444/wd/hub/static/resource/hub.html)
+- Sessions monitoring: [Session view](http://localhost:4444/wd/hub/static/resource/hub.html)   
+
+## 4. Resources  
+[Config-test-settings](https://github.com/nightwatchjs/nightwatch-docs/blob/master/gettingstarted/configuration/config-test-settings.md)

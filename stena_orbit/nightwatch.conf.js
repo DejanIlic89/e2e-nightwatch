@@ -46,16 +46,15 @@ let SAFARI_CONFIGURATION = {
 };
 
 let DEFAULT_CONFIGURATION = {
-  launch_url: 'http://localhost',
+  launch_url: 'https://stena-bulk-dev.htec.co.rs/',
   selenium_port: 4444,
   selenium_host: 'localhost',
   screenshots: {
     enabled: false,
     path: 'stena_orbit/screenshots'
   },
-  globals: {
-    // How long to wait (in milliseconds) before the test times out
-    waitForConditionTimeout: 5000
+  globals: {  
+    waitForConditionTimeout: 10000
   },
   desiredCapabilities: CHROME_CONFIGURATION
 };
@@ -69,7 +68,7 @@ module.exports = {
   output_folder: 'stena_orbit/report', // Where to output the test reports
   custom_commands_path: '',
   custom_assertions_path: '',
-  page_objects_path: '',
+  page_objects_path: 'stena_orbit/pages',
   globals_path: '',
   selenium: SELENIUM_CONFIGURATION,
   test_settings: ENVIRONMENTS,
