@@ -37,4 +37,8 @@ The Nightwatch test runner expects a configuration file to be passed, using by d
 - Sessions monitoring: [Session view](http://localhost:4444/wd/hub/static/resource/hub.html)   
 
 ## 4. Resources  
-[Config-test-settings](https://github.com/nightwatchjs/nightwatch-docs/blob/master/gettingstarted/configuration/config-test-settings.md)
+[Config-test-settings](https://github.com/nightwatchjs/nightwatch-docs/blob/master/gettingstarted/configuration/config-test-settings.md)  
+[Setting & getting windows environment variables](https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt)   
+[End to End testing of React apps with Nightwatch](https://blog.syncano.io/testing-syncano/)   
+[End to End testing of React apps with Nightwatch - part 2](https://blog.syncano.io/end-to-end-testing-of-react-apps-with-nightwatch-part-2/)  
+[End to End testing of React apps with Nightwatch - githab](https://github.com/Syncano/syncano-testing-examples)

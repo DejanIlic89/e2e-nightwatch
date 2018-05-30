@@ -8,7 +8,8 @@
     "demo": "node nightwatch --e chrome --tag demo --reporter ./demo/html-reporter.js --config demo/nightwatch.json",
     "cucumber": "node nightwatch --reporter ./cucumber/html-reporter.js --config cucumber/nightwatch.conf.CUCUMBER.js",
     "angular": "node nightwatch --e chrome --reporter ./angularjs_app/html-reporter.js --config angularjs_app/nightwatch.conf.ANGULAR.js",
-    "stena": "node nightwatch --reporter ./stena_orbit/html-reporter.js --config stena_orbit/nightwatch.conf.js"
+    "stena": "node nightwatch --reporter ./stena_orbit/html-reporter.js --config stena_orbit/nightwatch.conf.js",
+    "stena-stage": "node nightwatch --env staging --reporter ./stena_orbit/html-reporter.js --config stena_orbit/nightwatch.conf.js"
   },
   "repository": {
     "type": "git",
