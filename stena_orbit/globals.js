@@ -25,8 +25,8 @@ module.exports = {
   
     // Before/After Hooks of all tests
     // before : function(client) {
-    //     const login = client.page.login();
-    //     console.log('Setting up...');
+        // const login = client.page.login();
+        // console.log('Setting up...');
 
     //     login.navigate()
     //         .login(client.globals.email, client.globals.password)
@@ -44,37 +44,37 @@ module.exports = {
     // }
 
 //      This will be run before each test suite is started
-//   beforeEach: function(client, done) {
+  beforeEach: function(client, done) {
 //     // getting the session info
 //     // client.status(function(result) {
 //     //   console.log(result.value);
 //     //   done();
 //     // });
-//     client.perform(function(client, done) {
-//         client.page.login()
-//             .navigate()
-//             .login(client.globals.email, client.globals.password)
-//             .waitForElementPresent('.icon-menu', 'element %s is present within %d ms');
-//         done();
-//     });
-//     client.page.login(function(login) {
-//         login.navigate()
-//             .login(client.globals.email, client.globals.password)
-//             .waitForElementPresent('.icon-menu', 'element %s is present within %d ms');
-//         done();
-//     });
+    client.perform(function(client, done) {
+        client.page.login()
+            .navigate()
+            .login(client.globals.email, client.globals.password)
+            .waitForElementPresent('.icon-menu', 'element %s is present within %d ms');
+        done();
+    });
+    // client.page.login(function(login) {
+    //     login.navigate()
+    //         .login(client.globals.email, client.globals.password)
+    //         .waitForElementPresent('.icon-menu', 'element %s is present within %d ms');
+    //     done();
+    // });
 //     const login = client.page.login();
 
 //     login.navigate()
 //         .login(client.globals.email, client.globals.password)
 //         .waitForElementPresent('.icon-menu', 'element %s is present within %d ms');
 //     done();
-//   }
+  },
 
-  // This will be run after each test suite is finished
-//   afterEach: function(client, done) {
-//     console.log(client.currentTest);
-//     client.end();
-//     done();
-//   }
+//   This will be run after each test suite is finished
+  afterEach: function(client, done) {
+    console.log(client.currentTest);
+    client.end();
+    done();
+  }
 };
